@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Fira+Sans+Condensed:ital,wght@1,200&display=swap');
+
+*{
+    font-family: 'Fira Sans Condensed', sans-serif;
+   
+}
+
+#main {
+    border : 2px solid green;
+    width: 80%;
+    margin: auto;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.input {
+    border : 4px solid rgb(0, 0, 0);
+    width: 80%;
+    padding: 6px;
+    font-size: large;
+}
+
+#submit {
+    width: 15%;
+    padding: 6px;
+    font-size: large;
+}
+
+#result {
+    border : 1px solid red;
+    width: 80%;
+    margin:auto;
+    margin-top: 3rem;
+    padding: 3rem;
+    background-color: antiquewhite;
+}
+
+#result > h2 {
+    text-align: center;
+}
+
