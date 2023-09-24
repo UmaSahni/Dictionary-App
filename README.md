@@ -1,20 +1,3 @@
 # Dictionary-App
 
- # 3,000 / month Hard Limit
-
-
-  ${
-            meaning.map((el)=>{
-                return `
-                    <h3>${el.tag}</h3>
-                    <ol>
-                    ${
-                        el.values.map((item)=>{
-                            return `
-                            <li>${item} </li>
-                            `
-                        })
-                    } 
-                `
-            })
-        }
+[![image.png](https://i.postimg.cc/qMx90Knh/image.png)](https://postimg.cc/9rzxYrLC)
